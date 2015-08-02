@@ -23,7 +23,7 @@ int main(int argc, char **argv)
      * Run the app with 'pack' parameter to create an test non-compressed archive.
      *
      * example:
-     *      $ <appname> pack <source_txtfiles_dir> <target_arc_dir>
+     *      $ <appname> pack <source_txtfiles_dir>
      */
     if (argc > 1 && qstrlen(argv[1])) {
         const char *param_pack = "pack";
