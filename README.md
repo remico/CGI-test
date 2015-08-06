@@ -6,6 +6,6 @@ To simplify installation process you can add `qbs.installRoot:</full/path/to/par
 (press **Ctrl+5** in QtCreator IDE and find the *Build Steps -> Properties:* field)<br>
 
 ### Note
-* To perform simple testing you can run a *python3* module: `python3 -m http.server --cgi`<br>
+* To perform simple testing you can run a *python3* module from the directory that contains `cgi-bin` and `archives` directories:<br> `python3 -m http.server --cgi`<br>
 * The `archives` directory should be placed alongside the `cgi-bin` directory. 
 * Or you can edit the sources to set preferred place for the `archives` directory (see `constants.h` and `main.cpp` for further details)
